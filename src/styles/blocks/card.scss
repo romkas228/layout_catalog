@@ -8,7 +8,6 @@
   border-radius: 5px;
   transition-duration: 0.2s;
 
-
   &__image {
     display: block;
     width: 160px;
@@ -18,7 +17,7 @@
     margin-inline: auto;
   }
 
-  &__tittle {
+  &__title {
     color: inherit;
     font-weight: 500;
     font-size: 12px;
@@ -101,7 +100,7 @@
     transform: scale(1.2);
   }
 
-  &:hover .card__tittle {
+  &:hover .card__title {
     color: #34568b;
   }
 }
